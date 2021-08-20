@@ -75,4 +75,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Contributing
 
 If you have any suggestions about how I could improve this application, please contact me on my github page.
-  - ![Chris Beard:](https://github.com/cbeard22)
+  - [Chris Beard:](https://github.com/cbeard22)
