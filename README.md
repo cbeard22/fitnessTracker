@@ -4,7 +4,7 @@ Live Deployed Link: https://agile-bayou-56340.herokuapp.com/?id=611eb3e1592a9000
 
 ## Description
 
-This application provides a helping hand for the ultimate gamer to keep track of the current tasks he or she needs to complete in his or her game. Sometimes a gamer will take a break from a game and go back months later. This application will help the gamer remember exactly where he or she left off and what needs to be completed next. 
+This application provides the user a place to track their workouts. It will track and display the last 7 days that they input their workout. 
 
 ## Table of Contents
 
@@ -23,59 +23,48 @@ Install npm and Node.js on your local computer.
 
 Install Git and Github on your local computer and register to get an account.
 
-Install MySql and MySql Workbench on your local computer. 
+Install MongoDB and create an account.
 
-Clone or Fork this repository: (https://github.com/HeatMarie/poggers.git)
+Clone or Fork this repository: (https://github.com/cbeard22/fitnessTracker)
 
 After cloning the repository to your local computer:
 - Initialize npm 
-- Install bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session, mysql2, node-fetch, node-mailer, and sequelize node modules.
 
 You can then deploy this to Heroku or you can run it on your local computer.
 
 ## Usage
 
--First follow the live link to the deployed site at the top of this README.md.
+  - First follow the live link to the deployed site at the top of this README.md.
 
--Then you will be asked to sign up. The first time you sign up you will automatically be brought to the games page and you will not need to login after you sign up. However, when you log in the next time you will need to choose log in and not sign up. 
+  - You will then be brought to the website where you can enter a resistance or cardio exercise. You can then add more exercises or you can view the last 7 days exercise on the dashboard page. 
 
-![Screenshot of login/sign-up page](./images/loginScreenshot.png)
+![Screenshot of Homepage](./img/fitness-tracker-home.png)
 
--Now that you are logged in, you can begin to entering in the game title. This is where you will add all of the games you want to track.
+-Now that you are at the homepage you can add one exercise or multiple exercises from that day. To view the weeks exercises click on the dashboard test in the upper left corner. 
 
-![Screenshot of Games page](./images/gamesScreenshot.png)
+![Screenshot of Dashboard](./img/fitness-tracker-dashboard.png)
 
--Once you have added a game you can click on the game title and this is where you will add the tasks you want to complete. The tasks will then be stored to the right with a timestamp of the date you added the task. When you are done with a task you can delete it and add another task. 
-
-![Screenshot of Tasks page](./images/addTaskScreenshot.png)
+This is where the 7 day list of activity will be displayed. 
 
 ## Credits
-
-- Collaborators:
-  - [Heather Bjoin:](https://github.com/HeatMarie)
-  - [Elijah Miernicki:](https://github.com/MiernickiElijah)
-  - [Dillon Smith:](https://github.com/dillon-smith-us)
   - [Chris Beard:](https://github.com/cbeard22)
   
-- For this project we utilized:
-    - Bcrypt
-    - Node.js
+- For this project I utilized:
+    - Mongoose
+    - Mongo DB
+    - Heroku
+    - Node
     - NPM
-    - mysql2 Node Module
-    - dotenv Node Module
-    - sequelize Node Module
-    - Express.js
+    - Express
     - Javascript
-    - Handlebars
     - API
-    - Insomnia
-    - NodeMailer
+ 
 
 ## License
 
 MIT License
 
-Copyright (c) [2021] [Chris Beard, Elijah Miernicki, Heather Bjoin, Dillion Smith]
+Copyright (c) [2021] [Chris Beard]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -85,9 +74,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Contributing
 
-If you have any suggestions about how we could improve this application, please contact us on our github pages and we will
+If you have any suggestions about how I could improve this application, please contact me on my github page.
 
-    - [Heather Bjoin:](https://github.com/HeatMarie)
-    - [Elijah Miernicki:](https://github.com/MiernickiElijah)
-    - [Dillon Smith:](https://github.com/dillon-smith-us)
     - [Chris Beard:](https://github.com/cbeard22)
