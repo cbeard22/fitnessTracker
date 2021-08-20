@@ -40,11 +40,11 @@ You can then deploy this to Heroku or you can run it on your local computer.
 
 ![Screenshot of Homepage](./img/fitness-tracker-home.png)
 
--Now that you are at the homepage you can add one exercise or multiple exercises from that day. To view the weeks exercises click on the dashboard test in the upper left corner. 
+  - Now that you are at the homepage you can add one exercise or multiple exercises from that day. To view the weeks exercises click on the dashboard test in the upper left corner. 
 
 ![Screenshot of Dashboard](./img/fitness-tracker-dashboard.png)
 
-This is where the 7 day list of activity will be displayed. 
+  - This is where the 7 day list of activity will be displayed. 
 
 ## Credits
   - [Chris Beard:](https://github.com/cbeard22)
@@ -75,5 +75,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Contributing
 
 If you have any suggestions about how I could improve this application, please contact me on my github page.
-
-    - [Chris Beard:](https://github.com/cbeard22)
+  - ![Chris Beard:](https://github.com/cbeard22)
