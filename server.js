@@ -16,7 +16,7 @@ app.use(require("./routes/htmlRoutes.js"));
 app.use(require("./routes/apiRoutes.js"));
 
 //connecting to mongoose database with local host or heroku
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
     useNewUrlParser: true,
     useFindAndModify: false,
     useCreateIndex: true,
